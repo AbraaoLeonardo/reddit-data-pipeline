@@ -1,5 +1,6 @@
+from data_extraction.pipeline.reddit_etl import reddit_data_pipeline
 def main():
-    print("Hello from reddit!")
+    reddit_data_pipeline()
 
 
 if __name__ == "__main__":
