@@ -17,3 +17,15 @@ POSTGRESQL_PASSWORD = config.get('database', 'POSTGRESQL_PASSWORD')
 POSTGRESQL_DATABASE = config.get('database', 'POSTGRESQL_DATABASE')
 POSTGRESQL_HOST = config.get('database', 'POSTGRESQL_HOST')
 POSTGRESQL_PORT = config.get('database', 'POSTGRESQL_PORT')
+
+POSTS_KEY = [
+    'author_fullname',
+    'selftext',
+    'title',
+    'subreddit_name_prefixed',
+    'name',
+    'ups',
+    'num_comments',
+    'created',
+    'url'
+    ]
